@@ -1,0 +1,13 @@
+﻿<Window x:Class="VehicleInventory.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:VehicleInventory"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <ListBox x:Name="lbVehicles" Margin="0,0,382,78" MouseDoubleClick="lbVehicles_MouseDoubleClick"/>
+        <Button x:Name="btnNew" Content="Add New Vehicle" HorizontalAlignment="Left" Margin="79,389,0,0" VerticalAlignment="Top" Width="114" Click="btnNew_Click"/>
+    </Grid>
+</Window>
